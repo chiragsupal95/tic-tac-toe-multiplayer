@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+    </div>
+    <div id="message">Waiting for opponent to join</div>
+
+    <div class="board">
+        <input type="button" id="r0c0" class="btn border-bottom " value=" ">
+        <input type="button" id="r0c1" class="btn border-bottom border-left" value=" ">
+        <input type="button" id="r0c2" class="btn border-bottom border-left" value=" ">
+        
+    </div>
+
+    <div class="board">
+        <input type="button" id="r1c0" class="btn border-bottom" value=" ">
+        <input type="button" id="r1c1" class="btn border-bottom border-left" value=" ">
+        <input type="button" id="r1c2" class="btn border-bottom border-left" value=" ">
+    </div>
+
+    <div class="board">
+        <input type="button" id="r2c0" class="btn" value=" ">
+        <input type="button" id="r2c1" class="btn border-left" value=" ">
+        <input type="button" id="r2c2" class="btn border-left" value=" ">
+    </div> 
+    
+        <div id="turn"></div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans&family=Ubuntu:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+    text-align: center;
+    margin: 30px;
+    font-size: 2rem;
+}
+
+.board {
+    
+    text-align: center; 
+    
+}
+
+
+
+.btn{
+    font-size: 5em;
+    color: black;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    box-sizing: content-box;
+    cursor: pointer;
+    
+}
+
+
+
+@media screen and (min-width:600px) {
+    .btn{
+        height: 120px;
+        width: 120px;
+    }
+}
+@media screen and (max-width:720px) {
+    .btn{
+        height: 100px;
+        width: 100px;
+        
+    }
+}
+
+#message {
+    margin: 40px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#turn{
+    margin: 40px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.border-left{
+    border-left: 4px solid black;
+    box-sizing: content-box;
+    
+}
+
+.border-bottom{
+    border-bottom: 4px solid black;
+    box-sizing: content-box;
+}
+
+
+
+
+
+
